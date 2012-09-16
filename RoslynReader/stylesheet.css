@@ -1,0 +1,250 @@
+body {
+    background-color: white;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+}
+
+.edge {
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    padding: 0.1em 0.4em 0.1em 0.4em;
+}
+
+#header {
+    font-size: 2em;
+    line-height: 1.15em;
+    text-align: left;
+}
+
+#footer {
+    font-size: 1em;
+    line-height: 1.15em;
+    font-weight: bold;
+    text-align: right;
+}
+
+    #header div a,
+    #footer div a {
+        color: white;
+        background-color: black;
+        text-decoration: underline;
+    }
+
+.paper {
+    color: black;
+    background-color: white;
+    font-family: Times New Roman, Times, serif; /*sans-serif;*/
+    font-size: 1.2em; /*1em;*/
+    line-height: 1.3em; /*1.4em;*/
+    text-align: left;
+    text-indent: 0em;
+    width: 40em; /*45em;*/
+    border: 0 none;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#heading {
+    margin-bottom: 6em;
+}
+
+#colophon {
+    margin-bottom: 6em;
+}
+
+#preface {
+    margin-bottom: 6em;
+}
+
+#summary {
+    text-align: justify;
+}
+
+#contents {
+    margin-bottom: 6em;
+}
+
+    #contents ul,
+    #contents ol {
+        list-style-type: none;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-bottom: 1.5em;
+    }
+
+        #contents ul ul,
+        #contents ol ol,
+        #contents ul ol,
+        #contents ol ul {
+            margin-left: 2em;
+        }
+
+        #contents ul li,
+        #contents ol li {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+.section {
+    margin-bottom: 6em;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2em;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+h5 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+h6 {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0em 1.5em 0em 0em;
+    float: left;
+}
+
+p {
+    text-indent: 0em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+pre {
+    font-family: monospace;
+    font-size: 0.9em;
+    line-height: 1.2em;
+    text-align: left;
+    white-space: pre-wrap;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em; /*1.5em;*/
+    border: 0.1em black solid;
+}
+
+ol, ul, dl {
+    margin: 0.5em 2em 0.5em 1.3em;
+    padding: 0em;
+}
+
+dl {
+    margin-left: 2em;
+}
+
+.plainlist {
+    list-style-type: none;
+}
+
+dl.plainlist {
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+table {
+    margin-top: 1em;
+}
+
+img {
+    border: 0.1em solid black;
+    margin: 1em 0em 1em 0em;
+}
+
+#references ul {
+    list-style-type: none;
+    margin-left: 0em;
+}
+
+    #references ul li {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+sup {
+    line-height: 0.5em;
+}
+
+code, tt {
+    font-family: monospace;
+}
+
+li, dt, dd {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dl.plainlist dd {
+    margin-left: 0em;
+    margin-bottom: 0.5em;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+    background-color: rgb(208,208,208);
+    text-decoration: underline;
+}
+
+.highlight {
+    background-color: rgb(224,224,224);
+}
+
+.lowlight {
+    color: rgb(144,144,144);
+}
